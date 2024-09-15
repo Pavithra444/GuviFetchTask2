@@ -1,0 +1,48 @@
+body{
+    background-color: cornsilk;
+}
+.parentDiv{
+    height:auto;
+    width:auto;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+}
+.contentDiv{
+    height:auto;
+    width:auto;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headDiv{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:darkgoldenrod;
+    font-family:cursive;
+    font-size: 35px;
+}
+
+.container{
+    height:300px;
+    width:300px;
+    background-color:darkkhaki;
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 30px;
+    border-color:darkgoldenrod;
+    border-style: solid;
+    padding: 10px;
+    color: ghostwhite;
+    text-align:justify;
+    font-family: cursive;
+    font-size:30px;
+    flex-direction: column;
+}
+.link{
+    font-size: 16px;
+    color:gold;
+}
